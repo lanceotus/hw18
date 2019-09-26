@@ -1,0 +1,165 @@
+a {
+    text-decoration: none;
+}
+
+input {
+    /*height: 40px;*/
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+    color: #4749c0;
+    background-color: #FFFFFF;
+    padding: 15px;
+    margin: 10px;
+    font-family: Roboto,sans-serif;
+    font-size: 12pt;
+}
+
+button {
+    /*height: 40px;*/
+    border-radius: 5px;
+    border-style: none;
+    color: #FFFFFF;
+    background-color: rgba(71,73,192,.8);
+    padding: 15px;
+    margin: 10px;
+    font-size: 12pt;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4749c0;
+}
+
+.App {
+  background-color: #eeeeee;
+  color: #333;
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto, sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: linear-gradient(to right, #4444cc, #8844aa);
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+    height: 100%;
+    float: left;
+    color: #FFFFFF;
+    font-size: 20pt;
+    font-family: Verdana, Georgia, Times, serif;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 80px;
+}
+
+.menu__item {
+    padding: 25px 20px;
+    margin: 0;
+}
+
+.menu__text {
+    color: #FFFFFF;
+    font-size: 16pt;
+    font-family: Verdana, Georgia, Times, serif;
+    font-weight: normal;
+    text-decoration-line: none;
+}
+
+.menu__item_group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 0;
+    padding: 0;
+}
+
+.horizontal_spacer {
+    flex-grow: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex: 1 0 auto;
+  /*justify-content: center;*/
+  align-items: center;
+  margin: 50px 10% 50px 10%;
+}
+
+.footer {
+  background: linear-gradient(to right, #4348c4, #8d43a8);
+  height: 40px;
+  width: 100%;
+  margin: 0;
+  padding: 20px 0 0 0;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 10pt;
+  font-family: Verdana, Georgia, Times, serif;
+  font-weight: normal;
+  text-decoration-line: none;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    /*height: 220px;*/
+    padding: 40px;
+    margin: 20px;
+    border-radius: 7px;
+    background: linear-gradient(to right, #202156, #391F4B);
+    color: #000000;
+}
+
+.form__title {
+    color: #FFFFFF;
+    font-family: Roboto, sans-serif;
+    font-size: 20pt;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+/*.course_card__name {
+    text-align: left;
+    font-size: 20pt;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    margin: 20px 20px auto 30px;
+}
+
+.course_card__date_box {
+    padding: 0 10px 0;
+    margin: 0 0 35px 0;
+    font-size: 16pt;
+    font-family: Georgia, Times, serif;
+    font-weight: normal;
+    font-style: italic;
+    color: #FFFFFF;
+    background: linear-gradient(to right, #4444cc, #8844aa);
+    width: fit-content;
+}
+
+.course_card__date_text {
+    font-size: 18pt;
+    font-family: Georgia, Times, serif;
+    font-weight: bold;
+    font-style: normal;
+}
+*/
