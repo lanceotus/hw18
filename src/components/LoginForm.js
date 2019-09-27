@@ -44,7 +44,7 @@ class LoginFormContent extends React.Component {
 export default class LoginForm extends React.Component {
     render() {
         return (
-            <div className="register_form">
+            <div className="login_form">
                 <LoginFormContent/>
             </div>
         );
